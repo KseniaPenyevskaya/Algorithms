@@ -20,8 +20,8 @@ void createDots(Graph& graph){
 		double s = x * x + y * y;
 		double p = sqrt(-2 * log(s) / s);
 
-		z0 = x * p;
-		z1 = y * p;
+		z0 = 50 * x * p;
+		z1 = 50 * y * p;
 		dots.push_back(dot(z0, z1));
 
 		for (int j = 0; j < i; j++) {
