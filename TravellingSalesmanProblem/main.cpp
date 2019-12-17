@@ -14,7 +14,7 @@ int main() {
 	int maxNumberVertices = 10;
 	vector <int> numberVertices;
 
-	for (int i = 3; i <= 10; i++) {
+	for (int i = 2; i <= 10; i++) {
 		numberVertices.push_back(i);
 	}
 
@@ -36,4 +36,5 @@ int main() {
 
 		outputFile(numbVert, GetMean(qual), GetStandardDeviation(qual), GetMean(bfWeight), GetMean(mstWeight));
 	}
+	
 }

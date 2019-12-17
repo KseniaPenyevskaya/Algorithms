@@ -3,18 +3,18 @@
 using std::min;
 using std::vector;
 
-double CalculateWeight(Graph& gr, vector <int> vertices)
+double CalculateWeight(Graph& gr, vector <int>& vertices)
 {
-	int numberEdges = vertices.size() - 1;
+	int numberEdges = vertices.size() - 1; //2
 	double weight;
 	// if graph has 2 vertices
 	if (numberEdges == 1) {
-		weight = 2 * gr.GetWeight(0, numberEdges);
+		weight = 2 * gr.GetWeight(vertices[0], vertices[numberEdges]);
 	}
 	else {
-		weight = gr.GetWeight(0, numberEdges - 1);
-		for (int i = 0; i < numberEdges - 1; i++) {
-			weight += gr.GetWeight(i, i + 1);
+		weight = gr.GetWeight(vertices[0], vertices[numberEdges - 1]);
+		for (int i = 0; i < numberEdges; i++) {
+			weight += gr.GetWeight(vertices[i], vertices[i + 1]);
 		}
 	}
 	return weight;
@@ -30,9 +30,12 @@ double MinWeightBF(Graph &gr)
 	double minWeight = DBL_MAX;
 
 	do {
+		
 		double tmpWeight;
 		tmpWeight = CalculateWeight(gr, vertices);
 		minWeight = min(minWeight, tmpWeight);
+		//std::cout << minWeight << std::endl;
 	} while (std::next_permutation(vertices.begin(), vertices.end()));
+	//std::cout << "minWeight is:" << minWeight;
 	return minWeight;
 }

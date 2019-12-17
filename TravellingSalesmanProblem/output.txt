@@ -1,91 +1,45 @@
-
 2 vertices
 Mean: 0	Standard Deviation: 0
-MST:  8.21089	BF: 16.4218	2MST: 16.4218
+MST:  46.549	BF: 93.098	2MST: 93.098
 
 
 3 vertices
-Mean: 10.0815	Standard Deviation: 5.64989
-MST:  15.4216	BF: 20.7618	2MST: 30.8432
+Mean: 54.4499	Standard Deviation: 23.0187
+MST:  84.9411	BF: 115.432	2MST: 169.882
 
 
 4 vertices
-Mean: 10.4644	Standard Deviation: 6.27971
-MST:  21.8389	BF: 33.2134	2MST: 43.6778
+Mean: 58.7226	Standard Deviation: 22.1728
+MST:  103.734	BF: 148.746	2MST: 207.469
 
 
 5 vertices
-Mean: 9.45894	Standard Deviation: 4.31433
-MST:  22.4817	BF: 35.5045	2MST: 44.9635
+Mean: 70.0124	Standard Deviation: 27.106
+MST:  122.665	BF: 175.319	2MST: 245.331
 
 
 6 vertices
-Mean: 8.73808	Standard Deviation: 9.28865
-MST:  32.7512	BF: 56.7644	2MST: 65.5024
+Mean: 85.3682	Standard Deviation: 34.5514
+MST:  147.413	BF: 209.459	2MST: 294.827
 
 
 7 vertices
-Mean: 2.02679	Standard Deviation: 8.92952
-MST:  35.3403	BF: 68.6538	2MST: 70.6806
+Mean: 94.8739	Standard Deviation: 31.3229
+MST:  161.69	BF: 228.506	2MST: 323.38
 
 
 8 vertices
-Mean: -1.43709	Standard Deviation: 7.96879
-MST:  31.9898	BF: 65.4167	2MST: 63.9796
+Mean: 115.23	Standard Deviation: 34.522
+MST:  180.167	BF: 245.104	2MST: 360.335
 
 
 9 vertices
-Mean: -1.90273	Standard Deviation: 17.3687
-MST:  40.1278	BF: 82.1583	2MST: 80.2555
+Mean: 114.816	Standard Deviation: 36.4262
+MST:  180.064	BF: 245.313	2MST: 360.129
 
 
 10 vertices
-Mean: -9.38772	Standard Deviation: 9.76599
-MST:  42.7101	BF: 94.8078	2MST: 85.4201
-
-
-2 vertices
-Mean: 0	Standard Deviation: 0
-MST:  41.0544	BF: 82.1089	2MST: 82.1089
-
-
-3 vertices
-Mean: 50.4074	Standard Deviation: 28.2494
-MST:  77.1081	BF: 103.809	2MST: 154.216
-
-
-4 vertices
-Mean: 52.322	Standard Deviation: 31.3986
-MST:  109.194	BF: 166.067	2MST: 218.389
-
-
-5 vertices
-Mean: 47.2947	Standard Deviation: 21.5716
-MST:  112.409	BF: 177.523	2MST: 224.817
-
-
-6 vertices
-Mean: 43.6904	Standard Deviation: 46.4433
-MST:  163.756	BF: 283.822	2MST: 327.512
-
-
-7 vertices
-Mean: 10.1339	Standard Deviation: 44.6476
-MST:  176.702	BF: 343.269	2MST: 353.403
-
-
-8 vertices
-Mean: -7.18546	Standard Deviation: 39.8439
-MST:  159.949	BF: 327.084	2MST: 319.898
-
-
-9 vertices
-Mean: -9.51365	Standard Deviation: 86.8433
-MST:  200.639	BF: 410.791	2MST: 401.278
-
-
-10 vertices
-Mean: -46.9386	Standard Deviation: 48.83
-MST:  213.55	BF: 474.039	2MST: 427.101
+Mean: 132.53	Standard Deviation: 35.4521
+MST:  200.542	BF: 268.553	2MST: 401.084
 
 
