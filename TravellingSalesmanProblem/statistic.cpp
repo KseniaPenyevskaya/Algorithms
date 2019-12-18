@@ -16,7 +16,7 @@ double GetStandardDeviation(vector <double> arr) {
 	for (double el : arr) {
 		stDev += pow(el - mean, 2.0);
 	}
-	return stDev;
+	return sqrt(stDev / arr.size());
 }
 
 vector <double> GetQuality(vector <double> bf, vector <double> mst) {
@@ -24,7 +24,8 @@ vector <double> GetQuality(vector <double> bf, vector <double> mst) {
 	vector <double> quality;
 	int size = bf.size();
 	for (int i = 0; i < size; i++) {
-		quality.push_back(2 * mst[i] - bf[i]);
+		//quality.push_back(2 * mst[i] - bf[i]);
+		quality.push_back(bf[i] / 2 / mst[i]);
 	}
 	return quality;
 }
