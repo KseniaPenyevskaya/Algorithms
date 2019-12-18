@@ -1,45 +1,47 @@
+
+
 2 vertices
-Mean: 0	Standard Deviation: 0
-MST:  46.549	BF: 93.098	2MST: 93.098
+Mean: 1	Standard Deviation: 0
+MST:  49.7257	BF: 99.4514	2MST: 99.4514
 
 
 3 vertices
-Mean: 54.4499	Standard Deviation: 23.0187
-MST:  84.9411	BF: 115.432	2MST: 169.882
+Mean: 0.670268	Standard Deviation: 0.0588945
+MST:  84.3701	BF: 114.55	2MST: 168.74
 
 
 4 vertices
-Mean: 58.7226	Standard Deviation: 22.1728
-MST:  103.734	BF: 148.746	2MST: 207.469
+Mean: 0.724965	Standard Deviation: 0.0605848
+MST:  110.2	BF: 158.977	2MST: 220.4
 
 
 5 vertices
-Mean: 70.0124	Standard Deviation: 27.106
-MST:  122.665	BF: 175.319	2MST: 245.331
+Mean: 0.725549	Standard Deviation: 0.0555252
+MST:  119.683	BF: 173.113	2MST: 239.366
 
 
 6 vertices
-Mean: 85.3682	Standard Deviation: 34.5514
-MST:  147.413	BF: 209.459	2MST: 294.827
+Mean: 0.718727	Standard Deviation: 0.0501188
+MST:  141.567	BF: 202.932	2MST: 283.135
 
 
 7 vertices
-Mean: 94.8739	Standard Deviation: 31.3229
-MST:  161.69	BF: 228.506	2MST: 323.38
+Mean: 0.709435	Standard Deviation: 0.0555537
+MST:  156.551	BF: 219.914	2MST: 313.102
 
 
 8 vertices
-Mean: 115.23	Standard Deviation: 34.522
-MST:  180.167	BF: 245.104	2MST: 360.335
+Mean: 0.685225	Standard Deviation: 0.0447451
+MST:  176.725	BF: 240.889	2MST: 353.451
 
 
 9 vertices
-Mean: 114.816	Standard Deviation: 36.4262
-MST:  180.064	BF: 245.313	2MST: 360.129
+Mean: 0.680684	Standard Deviation: 0.040214
+MST:  195.637	BF: 265.394	2MST: 391.274
 
 
 10 vertices
-Mean: 132.53	Standard Deviation: 35.4521
-MST:  200.542	BF: 268.553	2MST: 401.084
+Mean: 0.663149	Standard Deviation: 0.0398366
+MST:  205.297	BF: 270.84	2MST: 410.593
 
 
