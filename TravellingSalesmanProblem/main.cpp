@@ -10,11 +10,13 @@
 using std::vector;
 
 int main() {
+	srand(time(0));
 	int numberExperiments = 100;
 	int maxNumberVertices = 10;
+
 	vector <int> numberVertices;
 
-	for (int i = 2; i <= 10; i++) {
+	for (int i = 2; i <= maxNumberVertices; i++) {
 		numberVertices.push_back(i);
 	}
 
@@ -30,7 +32,7 @@ int main() {
 			Graph myGr(numbVert);
 			createDots(myGr);
 			bfWeight.push_back(MinWeightBF(myGr));
-			mstWeight.push_back(getMinimumSpanningTreeWeight(myGr));
+			mstWeight.push_back(apprMinWeight(myGr));
 		}
 		qual = GetQuality(bfWeight, mstWeight);
 
