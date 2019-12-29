@@ -24,17 +24,8 @@ vector <double> GetQuality(vector <double> bf, vector <double> mst) {
 	vector <double> quality;
 	int size = bf.size();
 	for (int i = 0; i < size; i++) {
-		//quality.push_back(2 * mst[i] - bf[i]);
-		quality.push_back(bf[i] / 2 / mst[i]);
+		quality.push_back(bf[i] / mst[i]);
 	}
-	return quality;
-}
-
-double GetQuality(Graph& myGr) {
-	createDots(myGr);
-	double weightSpTr = getMinimumSpanningTreeWeight(myGr);
-	double weightMin = MinWeightBF(myGr);
-	double quality = weightSpTr - weightMin;
 	return quality;
 }
 
@@ -44,6 +35,6 @@ void outputFile(int/*number Of dots*/ n, double mean/*mean error*/, double stDev
 	out.open("output.txt", std::ios_base::app);
 	out << n << " vertices" << '\n';
 	out << "Mean: " << mean << '\t' << "Standard Deviation: " << stDev << '\n';
-	out << "MST:  "<< weightMST <<'\t'<< "BF: " << weightBF << '\t' << "2MST: " << 2*weightMST << '\n';
+	out << "Approximate weight:  " << weightMST << '\t' << "BF: " << weightBF << '\n';
 	out << '\n' << '\n';
 }
