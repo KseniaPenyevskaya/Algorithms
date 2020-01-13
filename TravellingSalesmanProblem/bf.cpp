@@ -5,14 +5,14 @@ using std::vector;
 
 double CalculateWeight(Graph& gr, vector <int>& vertices)
 {
-	int numberEdges = vertices.size() - 1; //2
+	int numberEdges = vertices.size() - 1;
 	double weight;
 	// if graph has 2 vertices
 	if (numberEdges == 1) {
 		weight = 2 * gr.GetWeight(vertices[0], vertices[numberEdges]);
 	}
 	else {
-		weight = gr.GetWeight(vertices[0], vertices[numberEdges - 1]);
+		weight = gr.GetWeight(vertices[0], vertices[numberEdges]);
 		for (int i = 0; i < numberEdges; i++) {
 			weight += gr.GetWeight(vertices[i], vertices[i + 1]);
 		}
@@ -28,10 +28,8 @@ double MinWeightBF(Graph &gr)
 		vertices.push_back(i);
 	}
 	double minWeight = DBL_MAX;
-
+	double tmpWeight;
 	do {
-		
-		double tmpWeight;
 		tmpWeight = CalculateWeight(gr, vertices);
 		minWeight = min(minWeight, tmpWeight);
 		//std::cout << minWeight << std::endl;
