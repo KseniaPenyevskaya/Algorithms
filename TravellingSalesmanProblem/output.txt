@@ -1,45 +1,45 @@
 2 vertices
 Mean: 1	Standard Deviation: 0
-Approximate weight:  102.801	BF: 102.801
+Approximate weight:  101.073	BF: 101.073
 
 
 3 vertices
-Mean: 0.737143	Standard Deviation: 0.0906654
-Approximate weight:  147.728	BF: 109.014
+Mean: 1	Standard Deviation: 6.56817e-17
+Approximate weight:  137.793	BF: 137.793
 
 
 4 vertices
-Mean: 0.797596	Standard Deviation: 0.0921989
-Approximate weight:  191.031	BF: 151.537
+Mean: 0.963204	Standard Deviation: 0.053388
+Approximate weight:  190.682	BF: 182.352
 
 
 5 vertices
-Mean: 0.809151	Standard Deviation: 0.0919334
-Approximate weight:  225.129	BF: 180.508
+Mean: 0.91654	Standard Deviation: 0.0778148
+Approximate weight:  233.003	BF: 211.72
 
 
 6 vertices
-Mean: 0.769395	Standard Deviation: 0.0843693
-Approximate weight:  253.026	BF: 191.843
+Mean: 0.863591	Standard Deviation: 0.0910869
+Approximate weight:  276.526	BF: 236.916
 
 
 7 vertices
-Mean: 0.735304	Standard Deviation: 0.0919325
-Approximate weight:  302.688	BF: 219.091
+Mean: 0.810438	Standard Deviation: 0.101534
+Approximate weight:  319.557	BF: 253.971
 
 
 8 vertices
-Mean: 0.720706	Standard Deviation: 0.0906487
-Approximate weight:  329.373	BF: 233.207
+Mean: 0.782797	Standard Deviation: 0.10021
+Approximate weight:  347.134	BF: 266.659
 
 
 9 vertices
-Mean: 0.693392	Standard Deviation: 0.0866502
-Approximate weight:  370.801	BF: 253.57
+Mean: 0.744877	Standard Deviation: 0.0928142
+Approximate weight:  374.82	BF: 276.241
 
 
 10 vertices
-Mean: 0.665048	Standard Deviation: 0.0906335
-Approximate weight:  411.399	BF: 268.742
+Mean: 0.741682	Standard Deviation: 0.0884044
+Approximate weight:  397.795	BF: 291.268
 
 
